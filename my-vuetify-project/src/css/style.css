@@ -1,0 +1,178 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+th,
+td,
+tr {
+  text-align: center !important;
+}
+.color-primary {
+  color: #04a6e1;
+}
+.text-color-gray {
+  color: #9b9b9b;
+}
+.bgs-primary {
+  background: #04a6e1 !important;
+}
+
+.bg-secondery {
+  background: #ffffff;
+}
+.border-s {
+  border: 1px solid #ccc;
+  border-radius: 2%;
+}
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000000000;
+  cursor: pointer;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+.modal-main {
+  width: 70%;
+  background-color: #fff;
+  flex: 0;
+  display: flex;
+  margin-top: 50px;
+}
+.display-none {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.my-custom-popup-class {
+  z-index: 99999 !important;
+}
+
+.my-custom-container-class {
+  z-index: 99999 !important;
+}
+
+.my-custom-content-class {
+  z-index: 99999 !important;
+}
+table {
+  height: 100%;
+  overflow: hidden !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+th,
+td {
+  border: 1px solid #ccc;
+}
+.search {
+  max-width: 160px;
+  margin-bottom: 20px;
+}
+.fix-magin {
+  margin-top: -12%;
+}
+.timkiem {
+  height: 30px;
+  width: 220px;
+}
+.main-card {
+  width: 95%;
+  margin: 0 auto;
+}
+.number-page {
+  width: 100%;
+}
+.table {
+  border: 1px solid #e0e0e0;
+}
+.pagination-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pagination-right {
+  margin-left: auto;
+}
+.click {
+  cursor: pointer;
+}
+.custom-text-field >>> .v-input__control {
+  height: 30px;
+  /* Các thuộc tính CSS tùy chỉnh khác nếu cần */
+}
+.plus-icon {
+  color: tan;
+}
+.pencil {
+  cursor: pointer;
+  color: green;
+}
+.trash {
+  color: red;
+}
+.icon-border-grean {
+  background: #94c973;
+  border-radius: 50%;
+}
+.icon-border-gray {
+  background: #999999;
+  border-radius: 50%;
+  font-size: 35px;
+  margin-right: 10px;
+}
+.custom-dropdown {
+  min-width: 100px;
+  max-width: 150px;
+}
+.v-table__wrapper {
+  overflow: hidden;
+}
+
+.nav.v-navigation-drawer.v-navigation-drawer--left.v-navigation-drawer--active.v-theme--light.nav {
+  z-index: 100 !important ;
+}
